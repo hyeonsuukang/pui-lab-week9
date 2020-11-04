@@ -13,8 +13,6 @@ function CardTemplate(parentEl, breedName, desc, imgUrl) {
     let img = document.createElement("img");
     img.src = imgUrl;
     img.width = 200;
-    img.setAttribute("index", numDoggosOnPage); // saving the index number of the doggo based on how many visible
-                                                // doggo cards there are
     divContainer.appendChild(img);
 
     let divTextContainer = document.createElement("div");
